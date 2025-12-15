@@ -1,0 +1,13 @@
+│   go.mod
+│
+├───cmd
+│   └───server
+│           handlers.go
+│           main.go
+│           middleware.go
+│
+└───internal
+    └───calendar
+            models.go
+            service.go
+            service_test.go
