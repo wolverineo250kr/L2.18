@@ -55,7 +55,8 @@ curl "http://localhost:8080/events_for_month?user_id=1&date=2025-01-01"
 
 curl "http://localhost:8080/events_for_day?user_id=1&date=2025-99-99"
 
-##Удаление несуществующего события (пример ошибки)
+Удаление несуществующего события (пример ошибки)
+
 curl -X POST http://localhost:8080/delete_event ^
   -H "Content-Type: application/json" ^
   -d "{\"id\":999}"
